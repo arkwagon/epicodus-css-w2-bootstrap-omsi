@@ -1,0 +1,95 @@
+
+/* For testing only */
+
+/**:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px !important;
+}*/
+
+/* End for testing */
+
+
+
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/*body {
+  background-color: green;
+}*/
+
+.navbar-default {
+    background-color: #FFF;
+    border-color: #FFF;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-default .navbar-brand {
+    color: #EC1A3B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: -4px;
+}
+
+.links {
+  font-size: 1.2em;
+}
+
+.content-row {
+  padding: 0 5%;
+}
+
+.burrito-row {
+  padding-top: 7%;
+}
+
+
+.bodyImages {
+  width: 100%;
+}
+
+.bodyText {
+  text-align: center;
+  padding-top: 3%;
+  color: #7F7F7F;
+}
+
+.btn {
+  margin-top: 10%;
+}
+
+.disclaimerLeft {
+  text-align: left;
+  margin-top: 12%;
+  margin-left: 5%;
+}
+
+.disclaimerRight {
+  text-align: right;
+  margin-top: 12%;
+  margin-right: 5%;
+}
+
+.howTo:link, .howTo:visited,
+.howTo:hover, .howTo:focus, .howTo:active {
+  color: #EC1A3B;
+}
+
+.footer {
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+.salsa-row, .eat-row, .nap-row {
+  padding-top: 4%;
+}
